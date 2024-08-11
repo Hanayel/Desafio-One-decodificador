@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Decodificador de texto</title>
+</head>
+
+<body>
+        <link rel="shortcut icon" type="imagex/png" href="./img/icone1.ico">
+
+    <main class="areatrabalho">
+        <section id="começo" class="start">
+            <div class="decodificador-sessao">
+
+                <h1 class="detalhe">Decodificador de textos</h1>
+                <div class="ponto1"></div>
+                <div class="ponto2"></div>
+                <div class="ponto3"></div>
+            </div>
+            <div class="conteudo-bloco">
+                    <textarea class="bloco-input-texto" placeholder="Digite seu texto"></textarea>
+                    <div class="leitor-texto">
+                        <div class="texto-conteudo">
+                            <h2 class="texto-conteudo-saida" id="mensagem-secreta"></h2>
+                            <h3> Nenhuma mensagem encontrada</h3>
+
+                            <img id="mascara-anon" class="mascara" src="./img/pngwing.com.png" alt="">
+                            <span class="efeito-escrita" id="palavras"  data-words="oberlai., benterm vimesndober."></span>
+                            <div>
+                                <div class="texto-area">
+                            <h4>Digite um texto que você deseja criptografar ou descriptografar.</h4>
+                            <div class="area-botao">
+                            <button onclick="copiarTexto()" id="copiarBotao" class="botao-copiar" > Copiar</button>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                    <h4>Apenas letras minusculas e sem acento.</h4>
+                    <div class="sessao-botoes">
+            <button onclick="encripitTexto()" class="botao1">CRIPTOGRAFAR</button>
+            <button onclick="descriptTexto()"class="botao2">DESCRIPTOGRAFAR</button>
+                </div>
+        </section>
+
+
+    </main>
+</body>
+
+<footer class="contato">
+    <h7 class="madeby">Desafio feito por </h7>
+    <a href="https://github.com/Hanayel" target="_blank" class="github">Hanayel</a>
+</footer>
+
+
+</html>

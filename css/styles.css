@@ -1,0 +1,233 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    line-height: 1.15;
+    background-color: #202020;
+    font-size: 18px;
+    font-family: Gilroy-Regular,sans-serif;
+    color: white;
+    text-align: left;
+    min-width: 320px;
+}
+
+.areatrabalho{
+    padding: 0 10%;
+}
+
+.start{
+    padding-top: 0;
+    margin: 10px 0 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.areatrabalho.start{
+    float: left;
+    width: 66%;
+    margin-top: 0;
+}
+.decodificador-sessao{
+    margin-top: 30px;
+    margin-bottom: 19px;
+    margin-left: 16px;
+    display: flex;
+    
+}
+h1{
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+h3{
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+h4{
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+}
+h7{
+    font-size: 10px;
+}
+.github{
+    font-size: 10px;
+    background-color: transparent;
+    color: #808080;
+    text-decoration: none;
+}
+.ponto1{
+    background-color: white;
+    width: 5px;
+    height: 5px;
+    animation: blink 1.25s infinite;
+    margin-right: 2px;
+    margin-top: 31px;
+    margin-left: 5px;
+}
+.ponto2{
+    background-color: white;
+    width: 5px;
+    height: 5px;
+    animation: blink 1.30s infinite;
+    margin-right: 2px;
+    margin-top: 31px;
+    margin-left: 4px;
+}
+.ponto3{
+    background-color: white;
+    width: 5px;
+    height: 5px;
+    animation: blink 1.35s infinite;
+    margin-right: 2px;
+    margin-top: 31px;
+    margin-left: 4px;
+}
+@keyframes blink{
+    0% {
+        opacity: 1;
+        }
+        50% {
+        opacity: 0;
+        }
+        100%{
+        opacity: 1;
+        }
+}
+.conteudo-bloco{
+    display: flex;
+    column-gap: 40.4%;
+
+
+
+
+}
+.bloco-input-texto{
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    font-family: Gilroy-Regular,sans-serif;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 50px;
+}
+.botao1{
+    font-family: Gilroy-Regular,sans-serif;
+    width: 116px;
+    height: 26px;
+    font-size: 12px;
+    margin-right: 4px;
+    background-color: white;
+    color: #808080;
+    border-radius: 10px;
+    border: none;
+}
+.botao2{
+    font-family: Gilroy-Regular,sans-serif;
+    width: 142px;
+    height: 26px;
+    font-size: 12px;
+    background-color: #808080;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.botao-copiar{
+    font-family: Gilroy-Regular,sans-serif;
+    width: 142px;
+    height: 26px;
+    visibility: hidden;
+    background-color: white;
+    color: #808080;
+    border-radius: 10px;
+    border: none;
+    font-size: 12px;
+}
+.area-botao{
+    display: flex;
+    justify-content: center;
+}
+.leitor-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.texto-conteudo{
+    width: 288px;
+    height: 480px;
+    background-color: #808080;
+    border-radius: 32px;;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 26px;
+    justify-content: space-between;
+}
+.mascara{
+    width: 217px;
+
+}
+
+.sessao-botoes{
+justify-content: center;
+display: flex;
+}
+
+.texto-conteudo-saida{
+    justify-content: center;
+}
+.contato{
+    font-family: Gilroy-Regular,sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 2.5px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.efeito-escrita{
+    justify-content: center;
+    display: flex;
+    font-size: 10px;
+    margin-top: -25px;
+}
+
+@media only screen and (min-width: 312px) and (max-width: 991px) {
+    .leitor-texto{
+        flex-direction: initial;
+        justify-content: center;
+    }
+    .conteudo-bloco{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .leitor-texto{
+        flex-direction: initial;
+        justify-content: center;
+    }
+    .conteudo-bloco{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+}
