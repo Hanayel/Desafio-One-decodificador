@@ -2,8 +2,10 @@
  
 Projeto de termino de trilha de curso do programa ONE (Oracle + Alura).
 
-Esse projeto tem como principal objetivo mostrar habilidades de html, css, javascrip e logica de programação.
-Projeto de layout simples e programação basica.
+Esse projeto tem como principal objetivo mostrar habilidades de html, css, javascrip e logica de programação.  
+
+Projeto de layout simples e programação basica.  
+
 Objetivo do projeto é criar um decodificador funcional que funcione seguindo caracteristicas especificas.
 
 <h4>"As "chaves" de criptografia que utilizaremos são: </h4>  
